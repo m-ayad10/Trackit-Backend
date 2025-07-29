@@ -17,7 +17,7 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended:true}))
 app.use(express.json())
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://trackit-frontend-tpml.vercel.app",
     credentials: true,
     methods: ["GET", "POST", "PATCH", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"]
@@ -27,9 +27,6 @@ app.listen(Port,()=>{
     console.log('Server started',Port);
 })
 
-app.get('/',()=>{
-    console.log('hello');
-})
 
 app.use('/',UserRouter)
 app.use('/income',IncomeRouter)
