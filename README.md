@@ -1,7 +1,7 @@
 
-# Backend - MERN Stack Application
+# Backend - Trackit Expense Tracker Application
 
-This is the backend of the MERN stack application, built using **Node.js**, **Express.js**, and **MongoDB**.
+This is the backend of the Trackit Expense Tracker application, built using **Node.js**, **Express.js**, and **MongoDB**.
 
 ## 📦 Tech Stack
 
